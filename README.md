@@ -45,19 +45,19 @@ Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or
 2. Regenerate your fonts
 `$ fc-cache -f -v`
 3. Verify the installation  
-`fc-list | grep -i "wifi"`..
+  `fc-list | grep -i "wifi"`
 
-You may get an output similar to this  
-`/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`  
-Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output
+    You may get an output similar to this  
+    `/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`  
+    Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output
 
 
 ## Usage
 
 1. First download and install the font.
-2. Add it to your config
-
-Add the following lines to your polybar config.
+2. Add it to your config. See the config below to get the idea.
+    
+## Polybar config
 
 ```
 
@@ -84,7 +84,6 @@ ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-5 = 
-
 ```
 
 `font-0` can be any font you want, I have shown it here just for example.
