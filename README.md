@@ -44,12 +44,11 @@ Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or
 `$ mkdir ~/.local/share/fonts`
 2. Regenerate your fonts
 `$ fc-cache -f -v`
-3. Verify the installation
-`fc-list | grep -i "wifi"`
-4. You may get an output similar to this
+3. Verify the installation  
+`fc-list | grep -i "wifi"`..
 
-`/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`
-
+You may get an output similar to this  
+`/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`  
 Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output
 
 
