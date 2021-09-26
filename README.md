@@ -24,6 +24,7 @@ I tried searching for fonts which had this icons but couldn't find one, so I dec
 
 ### Downloading it as a zip
 Paste the below link in your browser to download it.
+
 `https://github.com/isaif/polybar-wifi-ramp-icons/archive/refs/heads/main.zip`
 
 ### Using curl
@@ -46,7 +47,9 @@ Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or
 3. Verify the installation
 `fc-list | grep -i "wifi"`
 4. You may get an output similar to this
+
 `/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`
+
 Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output
 
 
