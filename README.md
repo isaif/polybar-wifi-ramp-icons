@@ -10,7 +10,7 @@ A patched "DejaVu Sans Mono" font that includes the wifi icons to be used in pol
 I have added added icons which shows different level of wifi strength in the DejaVuSansMono font.
 Note it is not ["DejaVuSansMono Nerd Font"](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip), so you need to add atleast one of the [nerd font](https://www.nerdfonts.com/) if you want to see other beautiful icons.
 
-I tried searching for fonts which had these icons but couldn't find one, so I decided to create it own my own.
+I tried searching for fonts which had these icons but couldn't find one, so I decided to create it on my own.
 
 ## How to donwload?
 
@@ -49,7 +49,7 @@ Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or
 
     You may get an output similar to this  
     `/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`  
-    Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output
+    Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output.
 
 
 ## Usage
@@ -96,7 +96,7 @@ I used the "DejaVu Sans Mono" font in [fontforge](https://www.nerdfonts.com/) to
 I created svg for each icons and added it to private usage area of the font by importing it.
 The private usage area were not being used in either "DejaVu Sans Mono" or "DejaVu Sans Mono Nerd Font" so there won't be any conflicts.
 I saved it as a new font "DejaVu Sans Mono wifi ramp".
-Later I intend to add the icons to "DejaVu Sans Mono Nerd Font" so only one font can have all the icons.
+Later, I intend to add the icons to "DejaVu Sans Mono Nerd Font" so only one font can have all the icons.
 
 I spent few days researching and creating this project as there were quite a few methods to accomplish it.
 Each method had its own pros and cons. Finally I settled on doing this on fontforge.
