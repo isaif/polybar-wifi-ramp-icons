@@ -8,11 +8,11 @@
 A patched "DejaVu Sans Mono" font that includes the wifi icons to be used in polybar network ramp-signal.
 
 I have added added icons which shows different level of wifi strength in the DejaVuSansMono font.
-Note it is not ["DejaVuSansMono Nerd Font"](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip), so you need to add atleast one of the [nerd font](https://www.nerdfonts.com/) if you want to see other beautiful icons.
+Note it is not ["DejaVuSansMono Nerd Font"](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip), so you need to add at least one of the [nerd font](https://www.nerdfonts.com/) if you want to see other beautiful icons.
 
 I tried searching for fonts which had these icons but couldn't find one, so I decided to create it on my own.
 
-## How to donwload?
+## How to download?
 
 ### Using git
 
