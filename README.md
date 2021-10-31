@@ -33,7 +33,10 @@ Paste the below link in your browser to download it.
 
 
 ## How to install?
+First go to the directory where you have downloaded or cloned the git repository.
 If you have downloaded it as a zip then you first need to unzip it.
+On opening the directory you will find the "DejaVuSansMono-wifi-ramp.ttf" font file.
+Then follow the instruction for your operating system.
 
 ### Windows
 Right click the font file "DejaVuSansMono-wifi-ramp.ttf" and click on install.
