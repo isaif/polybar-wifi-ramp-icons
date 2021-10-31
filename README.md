@@ -15,12 +15,13 @@ I tried searching for fonts which had these icons but couldn't find one, so I de
 ## How to download?
 
 ### Using git
+If you have git installed in your system, copy the following command in your terminal and run it.
 
 #### HTTPS
-`https://github.com/isaif/polybar-wifi-ramp-icons.git`
+`git clone https://github.com/isaif/polybar-wifi-ramp-icons.git`
 
 #### SSH
-`git@github.com:isaif/polybar-wifi-ramp-icons.git`
+`git clone git@github.com:isaif/polybar-wifi-ramp-icons.git`
 
 ### Downloading it as a zip
 Paste the below link in your browser to download it.
