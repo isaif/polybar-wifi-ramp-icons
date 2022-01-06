@@ -4,7 +4,6 @@
 
 ![my polybar](my-polybar.png "preview of my polybar")
 
-
 A patched "DejaVu Sans Mono" font that includes the wifi icons to be used in polybar network ramp-signal.
 
 I have added added icons which shows different level of wifi strength in the DejaVuSansMono font.
@@ -15,52 +14,65 @@ I tried searching for fonts which had these icons but couldn't find one, so I de
 ## How to download?
 
 ### Using git
+
 If you have git installed in your system, copy the following command in your terminal and run it.
 
 #### HTTPS
+
 `git clone https://github.com/isaif/polybar-wifi-ramp-icons.git`
 
 #### SSH
+
 `git clone git@github.com:isaif/polybar-wifi-ramp-icons.git`
 
 ### Downloading it as a zip
+
 Paste the below link in your browser to download it.
 
 `https://github.com/isaif/polybar-wifi-ramp-icons/archive/refs/heads/main.zip`
 
 ### Using curl
+
 `curl https://github.com/isaif/polybar-wifi-ramp-icons/archive/refs/heads/main.zip`
 
-
 ## How to install?
+
 First go to the directory where you have downloaded or cloned the git repository.
 If you have downloaded it as a zip then you first need to unzip it.
 On opening the directory you will find the "DejaVuSansMono-wifi-ramp.ttf" font file.
 Then follow the instruction for your operating system.
 
-### Windows
-Right click the font file "DejaVuSansMono-wifi-ramp.ttf" and click on install.
+You can also directly clone this repo in your font directory itself i.e. ~/.fonts or ~/.local/share/fonts
 
 ### Linux
-Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or
 
-1. Create a new directory in ~/.local/share
-`$ mkdir ~/.local/share/fonts`
+There may be different methods to install fonts in linux but the following info can be useful.
+Installed fonts are usually in `~/.fonts` or `~/.local/share/fonts`
+Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or `~/.local/share/fonts`
+
+1. Create a new directory `~/.local/share/fonts` or `~/.fonts`
+   `$ mkdir ~/.local/share/fonts`
+   or
+   `$ mkdir ~/.fonts`
 2. Regenerate your fonts
-`$ fc-cache -f -v`
+   `$ fc-cache -f -v`
 3. Verify the installation  
-  `fc-list | grep -i "wifi"`
+   `fc-list | grep -i "wifi"`
 
-    You may get an output similar to this  
+   You may get an output similar to this  
     `/home/saif/.fonts/polybar/DejaVuSansMono-wifi-ramp.ttf: DejaVu Sans Mono wifi ramp:style=wifi-ramp`  
     Just ensure that `DejaVuSansMono-wifi-ramp.ttf` is in the output.
 
+### Windows
+
+Right click the font file "DejaVuSansMono-wifi-ramp.ttf" and click on install.
+Polybar is linux only but I added this info so windows user who may need this font for other uses can do so.
 
 ## Usage
 
 1. First download and install the font.
 2. Add it to your config. See the config below to get the idea.
-    
+
 ## Polybar config
 
 ```
@@ -93,7 +105,6 @@ ramp-signal-5 = 
 `font-0` can be any font you want, I have shown it here just for example.
 Change the `interface` to the one you have.
 
-
 ## How I made it?
 
 I used the "DejaVu Sans Mono" font in [fontforge](https://www.nerdfonts.com/) to add icons.
@@ -105,4 +116,3 @@ Later, I intend to add the icons to "DejaVu Sans Mono Nerd Font" so only one fon
 I spent few days researching and creating this project as there were quite a few methods to accomplish it.
 Each method had its own pros and cons. Finally I settled on doing this on fontforge.
 If you found this helpful consider giving a star to the repository.
-
