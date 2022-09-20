@@ -117,6 +117,18 @@ ramp-signal-5 = 
 `font-0` can be any font you want, I have shown it here just for example.
 Change the `interface` to the one you have.
 
+## Unicode
+
+Here are the unicode for the icons:
+```
+'U+e0d5'
+'U+e0d6'
+'U+e0d7'
+'U+e0d8'
+'U+e0d9'
+'U+e0da'
+```
+
 ## How I made it?
 
 I used the "DejaVu Sans Mono" font in [fontforge](https://www.nerdfonts.com/) to add icons.
