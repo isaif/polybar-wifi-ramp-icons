@@ -38,25 +38,37 @@ Paste the below link in your browser to download it.
 ## How to install?
 
 First go to the directory where you have downloaded or cloned the git repository.
+
 If you have downloaded it as a zip then you first need to unzip it.
+
 On opening the directory you will find the "DejaVuSansMono-wifi-ramp.ttf" font file.
+
 Then follow the instruction for your operating system.
 
 You can also directly clone this repo in your font directory itself i.e. ~/.fonts or ~/.local/share/fonts
 
 ### Linux
 
-There may be different methods to install fonts in linux but the following info can be useful.
-Installed fonts are usually in `~/.fonts` or `~/.local/share/fonts`
-Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or `~/.local/share/fonts`
+There are different methods to install fonts in linux, in some distro you can just right click and select install option.
 
-1. Create a new directory `~/.local/share/fonts` or `~/.fonts`
-   `$ mkdir ~/.local/share/fonts`
-   or
-   `$ mkdir ~/.fonts`
-2. Regenerate your fonts
+Otherwise, the following info can be useful.
+
+Installed fonts are usually in `~/.fonts` or `~/.local/share/fonts`. 
+
+if you have either of those folders, you can skip the first step.
+
+1. Create a directory where fonts are located
+
+   run `$ mkdir ~/.local/share/fonts` to create `~/.local/share/fonts` directory.
+
+   or run `$ mkdir ~/.fonts` to create `~/.fonts` directory.
+
+2. Copy `DejaVuSansMono-wifi-ramp.ttf` to `~/.fonts`, or `~/.local/share/fonts`
+
+3. Regenerate your fonts
    `$ fc-cache -f -v`
-3. Verify the installation  
+
+4. Verify the installation  
    `fc-list | grep -i "wifi"`
 
    You may get an output similar to this  
@@ -108,9 +120,12 @@ Change the `interface` to the one you have.
 ## How I made it?
 
 I used the "DejaVu Sans Mono" font in [fontforge](https://www.nerdfonts.com/) to add icons.
+
 I created svg for each icons and added it to private usage area of the font by importing it.
+
 The private usage area were not being used in either "DejaVu Sans Mono" or "DejaVu Sans Mono Nerd Font" so there won't be any conflicts.
 I saved it as a new font "DejaVu Sans Mono wifi ramp".
+
 Later, I intend to add the icons to "DejaVu Sans Mono Nerd Font" so only one font can have all the icons.
 
 I spent few days researching and creating this project as there were quite a few methods to accomplish it.
