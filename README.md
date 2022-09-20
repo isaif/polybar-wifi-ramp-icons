@@ -55,7 +55,7 @@ Otherwise, the following info can be useful.
 
 Installed fonts are usually in `~/.fonts` or `~/.local/share/fonts`. 
 
-if you have either of those folders, you can skip the first step.
+If you have either of those folders, you can skip the first step.
 
 1. Create a directory where fonts are located
 
@@ -121,12 +121,12 @@ Change the `interface` to the one you have.
 
 Here are the unicode for the icons:
 ```
-'U+e0d5'
-'U+e0d6'
-'U+e0d7'
-'U+e0d8'
-'U+e0d9'
-'U+e0da'
+U+e0d5
+U+e0d6
+U+e0d7
+U+e0d8
+U+e0d9
+U+e0da
 ```
 
 ## How I made it?
@@ -142,4 +142,5 @@ Later, I intend to add the icons to "DejaVu Sans Mono Nerd Font" so only one fon
 
 I spent few days researching and creating this project as there were quite a few methods to accomplish it.
 Each method had its own pros and cons. Finally I settled on doing this on fontforge.
-If you found this helpful consider giving a star to the repository.
+
+If you found this helpful consider giving a star :star: to the repository.
